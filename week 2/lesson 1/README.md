@@ -43,10 +43,10 @@ print(someDictionary["keyName"])
 someDictionary["keyName"] = True
 
 # remove information from dictionary
-delete someDictionary["keyName"]
+del someDictionary["keyName"]
 
 # remove dictionary completely
-delete someDictionary
+del someDictionary
 ```
 
 ## Project:
